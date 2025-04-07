@@ -1,0 +1,126 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="icon" href="New_logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="container">
+    <!-- Navigation Bar -->
+    
+    <header>
+        <div class="logo">
+            <button id="myButton" onclick="h()"><img src="INVENIA SYSTEMS_LOGO_NEW.png" alt="Invenia Systems Logo"></button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li class="dropdown">
+                    <a href="#">Services &#11206;</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="electrical.html">Electrical</a></li>
+                        <li><a href="automation.html">Automation & Instrumentation</a></li>
+                        <li><a href="software&iot.html">Software & IoT</a></li>
+                        <li><a href="amc.html">AMC</a></li>
+                        <li><a href="retrofitting.html">Retrofitting</a></li>
+                        <li><a href="repairing.html">Repairing</a></li>
+                    </ul>
+                </li>
+                <li><a href="projects.html">Projects</a></li>
+                <li class="dropdown">
+                    <a href="#">Products &#11206;</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="electricalpanels&equipments.html">Electrical Panels & Equipment</a></li>
+                        <li><a href="automationequipments.html">Automation Equipment</a></li>
+                        <li><a href="instruments.html">Instruments</a></li>
+                        <li><a href="software&iotproducts.html">Software & IoT Product</a></li>
+                    </ul>
+                </li>
+                <li><a href="career.html">Career</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="contactus.html" class="contact-btn">Contact Us</a></li>
+                <li><img id="img-iso" src="ISO 9001 & 45001.png" alt="ISO 9001 & 45001"><font size=1>An ISO 9001:2015 & ISO 45001:2018 Certified Company</font></li>
+            </ul>
+        </nav>
+    </header>
+  
+    
+    <section class="contact-container">
+        <!-- Contact Details Section -->
+        <div class="contact-details">
+            <h2>Contact Details</h2>
+            <p><strong><i class="fa fa-phone"></i> :</strong> +91 7603086138</p>
+            <p><strong><i class="fa fa-envelope"></i>:</strong> info@inveniasystems.com</p>
+            <br>
+            <!-- Social Media Icons -->
+            <div class="social-icons">
+                <a href="https://wa.me/917603086138" target="_blank"><img src="whatsapp.png" alt="WhatsApp"></a>
+                <a href="https://www.facebook.com/InveniaSystems" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+                <a href="https://www.linkedin.com/company/invenia-systems" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a>
+            </div>
+<br>
+            <h3>Registered Address</h3>
+            <p>53/1, Ichapur Road,
+                Kadamtala,<br>
+                Howrah, PIN - 711101,<br>
+                West Bengal,
+                India</p>
+<br>
+                <!-- Find Us Section -->
+            <h3>Find Us</h3>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.7360638555087!2d88.30953759825255!3d22.588972799999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02795e8999cb3d%3A0x7e3807c6b3dd0a2!2sINVENIA%20SYSTEMS!5e0!3m2!1sen!2sin!4v1742458091184!5m2!1sen!2sin" 
+                width="100%" 
+                height="250" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+                </iframe>
+            </div>
+        </div>
+
+        <!-- Inquiry Form Section -->
+        <div class="inquiry-form">
+            <h2>Reach Us</h2>
+            <p>Get in touch with us for innovative engineering solutions and unparalleled service.</p>
+
+            <form id="contactForm">
+                <input type="text" id="fullName" name="full-name" placeholder="Full Name *" required>
+                <input type="text" id="companyName" name="company-name" placeholder="Company Name *" required>
+                <input type="text" id="phoneNumber" name="phone" placeholder="Phone Number *" required>
+                <input type="email" id="email" name="email" placeholder="Email Id *" required>
+                <textarea id="messageText" name="message" placeholder="Message *" required></textarea>
+                <button type="submit" onclick="sendMail()">SUBMIT →</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <!-- Left Section -->
+            <div class="footer-left">
+                <img src="INVENIA_EMBLEM.png" alt="Invenia System Emblem" class="footer-logo">
+                <p><font color="grey">© INVENIA SYSTEMS [2018 ~ 2025]</font></p>
+                <p>53/1, Ichapur Road, Kadamtala,</p>
+                <p>Howrah, PIN-711101,</p>
+                <p>West Bengal, India</p>
+            </div>
+
+            <!-- Right Section -->
+            <div class="footer-right">
+                <p><font color="grey">Powered by <span class="highlight">INVENIA LAB</span></font></p>
+            </div>
+        </div>
+    </footer>
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
