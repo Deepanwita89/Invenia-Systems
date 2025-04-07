@@ -114,7 +114,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 495px; /* Adjust based on header height */
+    margin-top: 1005px; /* Adjust based on header height */
 }
 
 img {   
