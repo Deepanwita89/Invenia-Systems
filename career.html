@@ -49,7 +49,8 @@
 <div class="career-container">
     <img src="Careers-1.jpg" alt="Join the team">
         <div class="overlay-btn">
-            <button id="resume-btn" onclick="resume()">Upload your Resume</button>
+            <button id="resume-btn" onclick="document.getElementById('fileInput').click()">Upload your Resume</button>
+            <input type="file" id="fileInput" accept=".pdf,.doc,.docx">
         </div>
 </div>
 
